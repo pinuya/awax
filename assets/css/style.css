@@ -795,3 +795,59 @@ header {
   width: 20px;
   height: auto;
 }
+
+footer {
+  background-color: #000;
+  padding: 20px;
+}
+.footer--area {
+  max-width: 1140px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+}
+.footer--item {
+  flex: 1;
+}
+.footer-social {
+  display: flex;
+}
+.footer-social a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  margin-right: 10px;
+}
+.footer-social a:hover {
+  background-color: #b28756;
+}
+.footer-social img {
+  height: 10px;
+}
+.footer--item.area2 {
+  color: #999;
+  line-height: 20px;
+  font-size: 13px;
+  padding: 0 10px 10px 10px;
+}
+.footer--item.area3 form {
+  background-color: #333;
+  text-align: center;
+  padding: 30px;
+}
+.footer--item.area3 input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
